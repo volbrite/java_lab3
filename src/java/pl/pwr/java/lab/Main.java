@@ -1,5 +1,9 @@
 package pl.pwr.java.lab;
 
+import pl.pwr.java.lab.punkty.Punkt_1D;
+import pl.pwr.java.lab.punkty.Punkt_2D;
+import pl.pwr.java.lab.punkty.Punkt_3D;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -60,7 +64,8 @@ public class Main {
 
         System.out.println("====================");
         ArrayList<Object> lista = wczytajDane();
-
+        System.out.println("====================");
+        System.out.println(lista.size());
         for (Object o : lista) {
             if (o instanceof Punkt_1D) {
                 Punkt_1D p = (Punkt_1D) o;

@@ -1,4 +1,4 @@
-package pl.pwr.java.lab;
+package pl.pwr.java.lab.punkty;
 
 /**
  * Created by Michał Bizoń on 07.03.2016.

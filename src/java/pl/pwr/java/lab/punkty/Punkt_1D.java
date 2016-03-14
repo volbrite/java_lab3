@@ -1,4 +1,4 @@
-package pl.pwr.java.lab;
+package pl.pwr.java.lab.punkty;
 
 /**
  * Created by Michał Bizoń on 07.03.2016.
@@ -9,6 +9,10 @@ public class Punkt_1D {
 
     public Punkt_1D(double x) {
         this.x = x;
+    }
+
+    public Punkt_1D() {
+
     }
 
     public double getX() {
