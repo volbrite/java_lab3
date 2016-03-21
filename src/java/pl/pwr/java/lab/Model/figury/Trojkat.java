@@ -1,7 +1,7 @@
-package pl.pwr.java.lab.figury;
+package pl.pwr.java.lab.Model.figury;
 
-import pl.pwr.java.lab.interfejsy.Figure;
-import pl.pwr.java.lab.punkty.Punkt_3D;
+import pl.pwr.java.lab.Model.interfejsy.Figure;
+import pl.pwr.java.lab.Model.punkty.Punkt_3D;
 
 /**
  * Created by Michał Bizoń on 14.03.2016.

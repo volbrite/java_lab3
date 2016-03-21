@@ -1,4 +1,4 @@
-package pl.pwr.java.lab.punkty;
+package pl.pwr.java.lab.Model.punkty;
 
 /**
  * Created by Michał Bizoń on 07.03.2016.
@@ -25,6 +25,10 @@ public class Punkt_1D {
 
     public void wyswietl() {
         System.out.println("[ " + x + " ]");
+    }
+
+    public double obliczOdlegloscOdPoczatku() {
+        return this.x;
     }
 
 }
